@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="MotionClick Studio: a Windows GUI for sound-based clicks, timed clicks, predictive red-ball tracking, and blue-square shuffles." />
+  <title>MotionClick Studio — Windows Download</title>
+  <style>
+    :root{color-scheme:dark;--bg:#0b1322;--panel:#142038;--edge:#2b3b57;--ink:#f0f6ff;--dim:#9fb0c7;--blue:#78b5ff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:radial-gradient(ellipse 80% 50% at 75% 0%,#233e6b 0,transparent 78%),var(--bg)}
+    a{color:var(--blue)}.wrap{max-width:1120px;margin:auto;padding:0 28px}.nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0;border-bottom:1px solid #2e426080}.logo{font-size:19px;font-weight:800;letter-spacing:-.02em}.logo span{color:var(--blue)}.nav-links{display:flex;gap:25px}.nav-links a{text-decoration:none;color:var(--dim)}
+    .hero{display:grid;grid-template-columns:1.12fr .88fr;gap:42px;align-items:center;padding:100px 0 90px}.eyebrow{font-size:13px;letter-spacing:.19em;text-transform:uppercase;color:#95c4ff;font-weight:700}h1{font-size:clamp(40px,5.2vw,68px);line-height:1.08;letter-spacing:-.055em;margin:17px 0 25px}p.lead{font-size:19px;line-height:1.75;color:#b6c6d8;max-width:630px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:33px}.button{display:inline-block;text-decoration:none;border:1px solid #49729e;border-radius:12px;padding:14px 22px;font-weight:750;color:#edf6ff;background:#223753;transition:transform .15s}.button:hover{transform:translateY(-2px)}.primary{color:#091b30;background:var(--blue);border-color:var(--blue)}.hint{font-size:13px;color:var(--dim);margin-top:17px}
+    .window{background:#111c2c;border:1px solid #4b6482;border-radius:17px;box-shadow:0 35px 75px #050b1990;overflow:hidden;transform:rotate(1deg)}.window-top{padding:14px 18px;background:#192942;display:flex;gap:8px;align-items:center;color:#c6d6e6;font-size:13px}.dot{height:10px;width:10px;background:#5b7497;border-radius:50%}.tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;padding:13px;background:#0c1524}.tab{padding:9px 3px;text-align:center;color:#8195b1;font-size:11px;border-radius:6px;background:#1b2a3d}.tab:first-child{background:#345a87;color:white}.window-body{padding:24px}.window-body h3{margin:0;font-size:19px}.window-body p{color:var(--dim);font-size:13px;margin:9px 0 23px}.form{display:grid;grid-template-columns:1fr 1fr;gap:12px}.form label{color:#98acc7;font-size:11px}.val{border:1px solid #44556c;background:#101b2a;color:white;border-radius:6px;padding:10px;margin-top:7px;font-size:13px}.status{background:#1d3144;color:#96d8ff;border-radius:6px;padding:13px;font-size:12px;margin-top:25px}
+    section{padding:28px 0 72px}h2{font-size:34px;letter-spacing:-.035em}section>p{color:var(--dim);max-width:700px}.features{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:25px}.feature{background:linear-gradient(145deg,#18283f,#121c2d);border:1px solid var(--edge);border-radius:16px;padding:25px}.num{color:var(--blue);font-size:12px;font-weight:800;letter-spacing:.2em}.feature h3{margin:12px 0 5px;font-size:21px}.feature p{color:var(--dim);margin:0}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:24px}.step{padding:18px;border-left:2px solid #6298c7}.step b{display:block;margin:7px 0}.step p{color:var(--dim);font-size:14px}.notice{border:1px solid var(--edge);background:var(--panel);border-radius:15px;padding:22px;color:var(--dim)}.footer{padding:35px 0 45px;border-top:1px solid var(--edge);color:var(--dim);font-size:13px}.mono{font-family:ui-monospace,Consolas,monospace;font-size:14px;color:#c7dcff}
+    @media(max-width:850px){.hero{grid-template-columns:1fr;padding:70px 0}.window{transform:none;max-width:560px}.steps{grid-template-columns:1fr}}@media(max-width:560px){.features{grid-template-columns:1fr}.wrap{padding:0 18px}.form{grid-template-columns:1fr}.nav-links{gap:12px}.hero{padding:55px 0}.actions .button{width:100%;text-align:center}}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header class="nav"><div class="logo">MOTION<span>CLICK</span> / STUDIO</div><div class="nav-links"><a href="#features">Features</a><a href="#install">Install</a><a id="repository-nav" href="#install">Source code</a></div></header>
+  <main>
+    <div class="hero">
+      <div><div class="eyebrow">Four tools. One desktop app.</div><h1>Click with precision.<br/>Track with context.</h1><p class="lead">A Windows utility that brings audio-triggered clicks, exact-window timers, and visual tracking into one straightforward desktop interface.</p><div class="actions"><a class="button primary" id="download" href="#install">Download for Windows ↓</a><a class="button" id="source" href="#install">View source code ↗</a></div><div class="hint">Free and open source · Windows 10/11 · Local processing · Unsigned community build</div></div>
+      <div class="window" aria-label="Illustration of the application interface"><div class="window-top"><span class="dot"></span><span class="dot"></span><span class="dot"></span>&nbsp; MotionClick Studio</div><div class="tabs"><span class="tab">Sound</span><span class="tab">Timer</span><span class="tab">Red Ball</span><span class="tab">Squares</span></div><div class="window-body"><h3>Sound-triggered click</h3><p>Listen for an audio onset, then click after the delay.</p><div class="form"><label>Click delay<div class="val">1.5 seconds</div></label><label>Detection threshold<div class="val">0.015 RMS</div></label><label>Silence to re-arm<div class="val">0.08 seconds</div></label><label>Audio source<div class="val">System output (loopback)</div></label></div><div class="status">● Ready to arm &nbsp;&nbsp; | &nbsp;&nbsp; ESC to stop</div></div></div>
+    </div>
+    <section id="features"><div class="eyebrow">Included in version 1.0</div><h2>Everything in one interface.</h2><div class="features"><div class="feature"><div class="num">01 / AUDIO</div><h3>Sound → Click</h3><p>Detect computer output audio and schedule a click after 1.5 seconds, with adjustable sensitivity and re-arm silence.</p></div><div class="feature"><div class="num">02 / TIMING</div><h3>Random Timed Click</h3><p>Start on a manual left-button release and click at a random time between 7.95 and 8.05 seconds later.</p></div><div class="feature"><div class="num">03 / MOTION</div><h3>Red Ball Tracking</h3><p>Follow a red circle at 0.2-second scan intervals, with a configurable 40 ms forward position estimate.</p></div><div class="feature"><div class="num">04 / IDENTITY</div><h3>Blue Square Tracking</h3><p>Follow originally blue squares even when they turn white, using Kalman prediction and identity association. Uncertain crossings are flagged.</p></div></div></section>
+    <section id="install"><div class="eyebrow">Get started</div><h2>Install and run on Windows.</h2><div class="steps"><div class="step"><div class="num">STEP 1</div><b>Download the ZIP</b><p>Use the latest GitHub release. A Windows build must first finish successfully.</p></div><div class="step"><div class="num">STEP 2</div><b>Extract all files</b><p>Keep the application EXE and its bundled support folder together.</p></div><div class="step"><div class="num">STEP 3</div><b>Launch and choose a tool</b><p>Run MotionClickStudio.exe, configure a tab, and use Arm / Stop as needed.</p></div></div><p class="hint">Prefer the source? Install Python and run <span class="mono">py -m pip install -r requirements.txt</span>, then <span class="mono">py app.py</span>.</p></section>
+    <section><div class="notice"><strong style="color:var(--ink)">Technical notes</strong><p>Clicks are timed on a best-effort basis under Windows. Vision tracking depends on display contents and processing speed, and identical objects can become impossible to distinguish during full occlusions. This application is open source and is not code-signed; examine the source before running it. The software itself does not transmit screen or audio data to any server.</p></div></section>
+  </main>
+  <footer class="footer">MotionClick Studio · MIT License · <a id="footer-source" href="#install">GitHub repository</a></footer>
+</div>
+<script>
+  // GitHub Pages serves project sites from username.github.io/repository/.
+  // Infer owner/repo there, otherwise keep generic non-broken navigation.
+  const isPages = /\.github\.io$/i.test(location.hostname);
+  if (isPages) {
+    const owner = location.hostname.split('.')[0];
+    const repo = location.pathname.split('/').filter(Boolean)[0];
+    if (owner && repo) {
+      const base = `https://github.com/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}`;
+      const release = `${base}/releases/latest/download/MotionClickStudio-Windows.zip`;
+      document.getElementById('download').href = release;
+      for (const id of ['source', 'repository-nav', 'footer-source']) {
+        document.getElementById(id).href = base;
+      }
+    }
+  }
+</script>
+</body>
+</html>
